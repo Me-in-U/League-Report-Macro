@@ -1,0 +1,11 @@
+E:\Languages\Python313\Scripts\pyinstaller.exe --windowed -n="신고하자" -i="icon.ico" --add-data "icon.ico:." --onefile C:\Users\LoewllZoe\Documents\GitHub\League_Report_Macro\main.py
+
+import sys
+sys.setrecursionlimit(5000)
+block_cipher = None
+
+E:\Languages\Python313\python.exe -m pip install pyinstaller pytesseract opencv-python pygetwindow pyautogui
+
+E:\Languages\Python313\Scripts\pyinstaller.exe C:\Users\LoewllZoe\Documents\GitHub\League_Report_Macro\pyinstaller.spec
+
+E:\Languages\Python313\python.exe -m pip freeze > requirements.txt
